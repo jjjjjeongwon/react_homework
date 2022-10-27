@@ -16,7 +16,7 @@ const Review = ({list, setList}) => {
 
   
   const save = (day) => {
-    
+      
       list[day] = rate ;  //rate 변경
     
     setList(list); //state 
@@ -24,9 +24,7 @@ const Review = ({list, setList}) => {
   };
 
 
-  // console.log(this.props.params);
-  // const { day }=this.props.match.params;
-
+  console.log(params.day); 
   return (
     <div className="App">
       <Container>

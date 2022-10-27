@@ -35,15 +35,7 @@ function App() {
   }
 
 
-  // const save =() => {
-  //   Object.keys(list).map((day)=> {
-  //     list[day] =0;
-  //   });
-  //   setList(list);   
-    
-  // }
-
-
+  // console.log(list);
 
   const [list, setList] =React.useState(arrow);
 

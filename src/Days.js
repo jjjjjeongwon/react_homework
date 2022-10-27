@@ -7,6 +7,8 @@ const Days = (props) => {
   const my_lists = Object.keys(props.list);
   console.log(props.list);
 
+
+  // console.log()
   return (
     <div>
       {my_lists.map((list, index) => {
